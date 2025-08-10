@@ -9,6 +9,7 @@ export default async function UserIdPage({params}) {
 
   return (
     <div>
+      <h1>User Detail</h1>
       user {userId} - {user.email}
     </div>
   );
